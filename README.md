@@ -7,6 +7,7 @@ Bu proje, Roadmap `Basic HTML Website` dersi için hazırlanmış basit bir HTML
 
 ## Proje URL
 - https://roadmap.sh/projects/basic-html-website
+ - https://roadmap.sh/projects/portfolio-website
 
 ## GitHub Repo URL
 - https://github.com/josephfinalform/CV-KOD-2
