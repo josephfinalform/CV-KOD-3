@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim | Styled HTML Website</title>
+    <meta name="description" content="İletişim sayfası — styled örnek." />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo">■</div>
+        <div>
+          <h1>İletişim</h1>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="projeler.html">Projeler</a></li>
+          <li><a href="makaleler.html">Makaleler</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <section class="content">
+        <h2>Bize ulaşın</h2>
+        <form class="contact-form" action="#" method="post">
+          <label for="isim">İsim</label>
+          <input type="text" id="isim" name="isim" placeholder="Adınız" required>
+
+          <label for="email">E-posta</label>
+          <input type="email" id="email" name="email" placeholder="ornek@email.com" required>
+
+          <label for="konu">Konu</label>
+          <input type="text" id="konu" name="konu" placeholder="Konu">
+
+          <label for="mesaj">Mesaj</label>
+          <textarea id="mesaj" name="mesaj" rows="6" placeholder="Mesajınızı yazın" required></textarea>
+
+          <button type="submit">Gönder</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Frontend Developer. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

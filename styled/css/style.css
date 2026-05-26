@@ -1,0 +1,60 @@
+:root{
+  --bg: #ffffff;
+  --card: #f6f7f9;
+  --text: #111827;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --radius: 10px;
+  --max-width: 1100px;
+  --gap: 16px;
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg: #0b1220;
+    --card: #0f1724;
+    --text: #e6eef8;
+    --muted: #9aa6b2;
+    --accent: #4f8ef7;
+  }
+}
+
+*{box-sizing: border-box}
+html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:var(--bg); color:var(--text);}
+
+.site-header{display:flex;align-items:center;justify-content:space-between;padding:18px;max-width:var(--max-width);margin:0 auto}
+.brand{display:flex;gap:12px;align-items:center}
+.brand .logo{width:48px;height:48px;border-radius:8px;background:var(--card);display:flex;align-items:center;justify-content:center;font-weight:700}
+.brand h1{margin:0;font-size:1.25rem}
+.brand .tagline{margin:0;color:var(--muted);font-size:0.9rem}
+
+.site-nav ul{list-style:none;padding:0;margin:0;display:flex;gap:12px}
+.site-nav a{text-decoration:none;color:var(--text);padding:8px 10px;border-radius:6px}
+.site-nav a:hover{background:var(--card)}
+
+.layout{display:grid;grid-template-columns:1fr 2fr 1fr;gap:var(--gap);max-width:var(--max-width);margin:18px auto;padding:0 18px}
+.sidebar{background:var(--card);padding:12px;border-radius:var(--radius)}
+.content{background:transparent;padding:12px}
+.aside-right{background:var(--card);padding:12px;border-radius:var(--radius)}
+
+article{background:var(--card);padding:12px;border-radius:8px;margin-bottom:12px}
+
+.site-footer{max-width:var(--max-width);margin:24px auto;padding:18px;color:var(--muted);text-align:center}
+
+/* Contact form */
+.contact-form{display:flex;flex-direction:column;gap:10px;max-width:640px}
+.contact-form input,.contact-form textarea{padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);background:transparent;color:var(--text)}
+.contact-form button{background:var(--accent);color:white;padding:12px;border-radius:8px;border:0;cursor:pointer}
+.contact-form button:hover{opacity:0.95}
+
+/* Responsive */
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr;}
+  .site-header{padding:12px}
+  .site-nav ul{gap:8px;flex-wrap:wrap}
+}
+
+@media (max-width:480px){
+  .brand h1{font-size:1rem}
+  .brand .tagline{display:none}
+}
