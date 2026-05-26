@@ -1,24 +1,28 @@
-# HTML Web Sitesi Paketi
+# CV-KOD-2
 
-Bu klasör, basit bir HTML web sitesi için gereken tüm dosyaları içerir.
+Bu proje, Roadmap `Basic HTML Website` dersi için hazırlanmış basit bir HTML web sitesidir.
+
+## Proje Başlığı
+- Basic HTML Website
+
+## Proje URL
+- https://roadmap.sh/projects/basic-html-website
+
+## GitHub Repo URL
+- https://github.com/josephfinalform/CV-KOD-2
 
 ## İçindekiler
 - `index.html` - Anasayfa
 - `projeler.html` - Projeler sayfası
 - `makaleler.html` - Makaleler sayfası
-- `hakkimda.html` - Hakkımda sayfası
-- `referanslar.html` - Referanslar sayfası
 - `iletisim.html` - İletişim sayfası
-- `styles.css` - Sayfa görselleştirmesi için stil dosyası
+- `styles.css` - Stil dosyası
 
-## Nasıl açılır
-1. Tüm dosyaları aynı klasörde tutun.
-2. `index.html` dosyasına çift tıklayarak tarayıcıda açın.
-3. Gezinme çubuğundan diğer sayfalara geçiş yapın.
+## Açıklama
+Bu klasör, birden fazla sayfaya sahip, semantik HTML yapısını kullanan temel bir web sitesi içerir. Proje CSS içermemektedir; sayfa yapısı daha sonra stil eklemeye uygun şekilde hazırlanmıştır.
 
-## Nasıl gönderilir
-- Bu dosya paketini `.zip` haline getirdim: `frontend-website.zip`
-- Bu zip dosyasını e-posta, mesaj veya bulut depolama ile paylaşabilirsiniz.
+## Nasıl çalıştırılır
+1. Bu klasördeki dosyaları aynı yerde tutun.
+2. `index.html` dosyasını tarayıcıda açın.
+3. Sayfalar arası gezinmek için üstteki bağlantıları kullanın.
 
-## Not
-- Site internet üzerinde yayınlanmamış olsa da, dosyaları alan herkes bu klasörü açıp `index.html` üzerinden siteyi görebilir.
