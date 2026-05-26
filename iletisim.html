@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim | Basit HTML Web Sitesi</title>
+    <meta name="description" content="İletişim sayfası. Kullanıcıdan isim, e-posta ve mesaj toplayan HTML formu." />
+    <meta name="keywords" content="iletişim, form, HTML, semantik" />
+    <meta name="author" content="Yusuf Tap" />
+  </head>
+  <body>
+    <header>
+      <h1>İletişim</h1>
+      <nav>
+        <a href="index.html">Anasayfa</a>
+        <a href="projeler.html">Projeler</a>
+        <a href="makaleler.html">Makaleler</a>
+        <a href="iletisim.html">İletişim</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Bize ulaşın</h2>
+        <p>İsim, e-posta ve mesaj alanları ile kullanıcıdan bilgi alan bir iletişim formu. Sayfa yapısı form kullanımına uygundur.</p>
+      </section>
+
+      <section>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>İletişim Formu</legend>
+
+            <div>
+              <label for="isim">İsim</label><br />
+              <input type="text" id="isim" name="isim" placeholder="Adınız" required />
+            </div>
+
+            <div>
+              <label for="email">E-posta</label><br />
+              <input type="email" id="email" name="email" placeholder="ornek@email.com" required />
+            </div>
+
+            <div>
+              <label for="konu">Konu</label><br />
+              <input type="text" id="konu" name="konu" placeholder="Mesaj konusu" />
+            </div>
+
+            <div>
+              <label for="mesaj">Mesaj</label><br />
+              <textarea id="mesaj" name="mesaj" rows="6" placeholder="Mesajınızı buraya yazın" required></textarea>
+            </div>
+
+            <div>
+              <button type="submit">Gönder</button>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Frontend Developer. Tüm hakları saklıdır.</p>
+    </footer>
+  </body>
+</html>
